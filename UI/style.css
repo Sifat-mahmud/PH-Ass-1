@@ -34,6 +34,11 @@ body {
     border-radius: 5px;
   }
 
+  header a:hover {
+    background-color: #006A50;
+    color: #FFFFFF;
+  }
+
   .banner {
     display: flex;
     justify-content: space-between;
@@ -397,7 +402,8 @@ body {
   }
   
   button:hover {
-    background-color: #006A50;
+    background-color: #153c33;
+    padding: 7px 12px;
   }
   
 
@@ -470,7 +476,7 @@ body {
   }
   
   .donate-button:hover {
-    background-color: #006A50;
+    background-color: #23483f;
   }
 
   .displayBlock{
@@ -505,7 +511,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     margin-bottom: 20px;
   }
   
@@ -535,7 +540,8 @@ body {
   }
   
   .newsletter-form button:hover {
-    background-color: #006A50; 
+    background-color: #40c9a7; 
+    color: gray;
   }
   
   .promise {
