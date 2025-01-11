@@ -389,13 +389,17 @@ body {
     color: #555;
     line-height: 1.6;
   }
+
+  .buttons{
+    border-radius: 5px;
+  }
   
   button {
     background-color: #006A50;
     color: white;
     padding: 5px 10px;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
@@ -460,7 +464,7 @@ body {
     padding: 10px;
     font-size: 1em;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 20px;
     text-align: center;
   }
@@ -469,7 +473,7 @@ body {
     background-color: #006A50;
     color: white;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: 1.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -520,9 +524,14 @@ body {
     padding: 10px 15px;
     font-size: 1em;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     outline: none;
     transition: border-color 0.3s ease;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
   
   .newsletter-form input:focus {
@@ -531,12 +540,17 @@ body {
   .newsletter-form button {
     background-color:#006A50; 
     color: white;
-    border: none;
-    border-radius: 5px;
+    border: #006A50;
+    /* border-radius: 5px; */
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   
   .newsletter-form button:hover {
